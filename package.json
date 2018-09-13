@@ -1,0 +1,31 @@
+{
+  "name": "@yuheiy/metalsmith-html-frontmatter",
+  "description": "html-frontmatter plugin for Metalsmith.",
+  "license": "MIT",
+  "author": "Yuhei Yasuda <yuhei.yasuda1003@gmail.com>",
+  "repository": "https://github.com/yuheiy/metalsmith-html-frontmatter.git",
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@yuheiy/html-frontmatter": "^0.0.1",
+    "debug": "^4.0.1",
+    "multimatch": "^2.1.0"
+  },
+  "devDependencies": {
+    "assert-dir-equal": "^1.1.0",
+    "del": "^3.0.0",
+    "jest": "^23.6.0",
+    "jstransformer-handlebars": "^1.1.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-layouts": "^2.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
